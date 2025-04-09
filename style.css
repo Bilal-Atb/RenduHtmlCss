@@ -69,7 +69,7 @@ h3 {
     box-shadow: 10px 10px 10px 10px rgba(21, 21, 21, 0.434);
 
     img {
-        width: 280px;
+        width: 260px;
     }
 
     text-align: center;
@@ -121,10 +121,18 @@ button {
     display: flex;
     flex-direction: column;
 }
+
 .submit {
     text-align: end;
     margin: 20px;
 }
-.mesage{
+
+.mesage {
     place-self: center
+}
+.logobi{
+    width: 100%;
+    justify-items: anchor-center;
+    align-content: center;
+    background-color: brown;
 }
