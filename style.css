@@ -137,3 +137,10 @@ button {
     align-content: center;
     background-color: brown;
 }
+.favoritestyled {
+
+    background-color: green;
+}
+h5 {
+    color: green;
+}
