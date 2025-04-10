@@ -7,7 +7,9 @@ ul {
     list-style: none;
     display: flex;
     width: 100%;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-block: auto;
+
 }
 
 .bougie {
@@ -31,6 +33,10 @@ h3 {
     text-align: center;
 }
 
+.nobougie {
+    margin-block: auto;
+}
+
 .Pourquoi {
     justify-items: center;
 }
@@ -52,9 +58,12 @@ h3 {
 }
 
 .bernez {
+    display: flex;
     height: 60px;
-    text-align: center;
     background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    margin-block: auto;
 }
 
 .contenairbougies {
@@ -137,10 +146,12 @@ button {
     align-content: center;
     background-color: brown;
 }
+
 .favoritestyled {
 
     background-color: green;
 }
+
 h5 {
     color: green;
 }
